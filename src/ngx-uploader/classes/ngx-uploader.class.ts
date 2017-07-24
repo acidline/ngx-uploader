@@ -1,7 +1,6 @@
 import { EventEmitter } from '@angular/core';
 import { Observable } from 'rxjs/Observable';
 import { Subscription } from 'rxjs/Subscription';
-import { Subscriber } from 'rxjs/Subscriber';
 import 'rxjs/add/observable/from';
 import 'rxjs/add/operator/mergeAll';
 

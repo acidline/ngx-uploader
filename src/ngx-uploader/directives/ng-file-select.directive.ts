@@ -1,6 +1,5 @@
 import { Directive, ElementRef, EventEmitter, Input, Output, OnInit, OnDestroy } from '@angular/core';
-import { isPlatformServer } from '@angular/common';
-import { NgUploaderService, UploadOutput, UploadInput, UploadFile } from '../classes/ngx-uploader.class';
+import { NgUploaderService, UploadOutput } from '../classes/ngx-uploader.class';
 
 @Directive({
   selector: '[ngFileSelect]'
